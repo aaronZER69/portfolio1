@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio - Aaron</title>
+    <link rel="icon" type="image/x-icon" href="/portfolio/img/chine.png">
+    <script src="index.js" defer></script>
+    <link rel='stylesheet' href="index.css">
+</head>
+<body>
+    <header>
+        <h1 class="home_name">Aaron Zerrouk</h1>
+        <h2 class="homme_theme">BTS SIO - Portfolio</h2>
+        <h3 class="home__education">Développeur web</h3>
+    </header>
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__buttons">
+                    <a href="#about" class="button">A propos de moi</a>
+                    <a href="#projets" class="button">Projets</a>
+                    <a href="#contact" class="button">Contact</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <h2 class="section__title">A propos de moi</h2>
+            <div class="about__container container grid">
+                <div class="about__info">
+                    <div class="about__box">
+                        <h3 class="about__title">Calme</h3>
+                    </div>
+                    <div class="about__box">
+                        <h3 class="about__title">Capacité d’adaptation</h3>
+                    </div>
+                    <div class="about__box">
+                        <h3 class="about__title">Autonome</h3>
+                    </div>
+                </div>
+                <p class="about__description">
+                    Actuellement en BTS 1 SIO, je recherche des perspectives d'avenir dans le milieu du développement web. 
+                    Grâce aux cours suivis au long de l'année, j'ai pu acquérir les bases de plusieurs langages Web (HTML, CSS, JavaScript, PHP).
+                </p>
+            </div>
+        </section>
+
+        <section class="projects section" id="projets">
+            <h2 class="section__title">Mes Projets - Portfolio</h2>
+            <div class="carousel">
+                <div class="carousel__slides">
+                    <div class="carousel__slide active">
+                        <h3 class="carousel__title">Projet 1 - Site sur le groupe de J-Pop, YOASOBI</h3>
+                        <img src="/portfolio/img/grp.jpg" alt="Projet 1">
+                    </div>
+                    <div class="carousel__slide">
+                        <h3 class="carousel__title">Projet 2 - Gestion d'un parc informatique</h3>
+                        <img src="/portfolio//img/glpi.jpg" alt="Projet 2">
+                    </div>
+                    <div class="carousel__slide">
+                        <h3 class="carousel__title">Projet 3 - Exercices en JavaScript</h3>
+                        <img src="/portfolio/img/jss.jpg" alt="Projet 3">
+                    </div>
+                </div>
+                <button class="carousel__button prev">❮</button>
+                <button class="carousel__button next">❯</button>
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <h2 class="skills_title">Mes Compétences</h2>
+                        <ul class="submenu">
+                            <li class="menuitem">HTML</li>
+                            <li class="menuitem">JavaScript</li>
+                            <li class="menuitem">Linux</li>
+                            <li class="menuitem">CSS</li>
+                            <li class="menuitem">MySQL</li>
+                            <li class="menuitem">PHP</li>
+                            <li class="menuitem">Git</li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        
+
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contactez Moi</h2>
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <h3 class="contact__card-title">Email</h3>
+                            <a href="mailto:aaron.zerrouk96@gmail.com" class="contact__button">Envoyer un mail</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <h3 class="contact__title">Envoyez-moi un message pour en savoir plus !</h3>
+                    <form id="form">
+                        <input name="nom" id="nomform" type="text" placeholder="Votre nom" required>
+                        <input name="mail" id="email" type="text" placeholder="Votre Email" required>
+                        <textarea name="commentaire" id="commentaire" cols="30" rows="10" placeholder="Votre message" class="contact__form-input" required></textarea>
+                        <input type="submit" id="button" class="button" value="Envoyer">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h1 class="footer__title">Par Aaron.</h1>
+    </footer>
+</body>
+</html>
