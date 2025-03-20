@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio - Aaron</title>
-    <link rel="icon" type="image/x-icon" href="chine.png">
+    <link rel="icon" type="image/x-icon" href="img/chine.png">
     <script src="index.js" defer></script>
     <link rel='stylesheet' href="index.css">
 </head>
@@ -42,7 +42,8 @@
                 </div>
                 <p class="about__description">
                     Actuellement en BTS 1 SIO, je recherche des perspectives d'avenir dans le milieu du développement web. 
-                    Grâce aux cours suivis au long de l'année, j'ai pu acquérir les bases de plusieurs langages Web (HTML, CSS, JavaScript, PHP).**Note importante :** Ce site est un projet en cours de développement. Certaines fonctionnalités pourraient ne pas encore fonctionner correctement ou être finalisées. Merci pour votre compréhension ! 😊
+                    Grâce aux cours suivis au long de l'année, j'ai pu acquérir les bases de plusieurs langages Web (HTML, CSS, JavaScript, PHP).
+                    <br> **Note importante :** Ce site est un projet en cours de développement. Certaines fonctionnalités pourraient ne pas encore fonctionner correctement ou être finalisées. Merci pour votre compréhension ! 😊 </br>
                 </p>
             </div>
         </section>
@@ -53,15 +54,15 @@
                 <div class="carousel__slides">
                     <div class="carousel__slide active">
                         <h3 class="carousel__title">Projet 1 - Site sur le groupe de J-Pop, YOASOBI</h3>
-                        <img src="grp.jpg" alt="Projet 1">
+                        <img src="/img/grp.jpg" alt="Projet 1">
                     </div>
                     <div class="carousel__slide">
                         <h3 class="carousel__title">Projet 2 - Gestion d'un parc informatique</h3>
-                        <img src="glpi.jpg" alt="Projet 2">
+                        <img src="/img/glpi.jpg" alt="Projet 2">
                     </div>
                     <div class="carousel__slide">
                         <h3 class="carousel__title">Projet 3 - Exercices en JavaScript</h3>
-                        <img src="jss.jpg" alt="Projet 3">
+                        <img src="img/jss.jpg" alt="Projet 3">
                     </div>
                 </div>
                 <button class="carousel__button prev">❮</button>
@@ -103,9 +104,9 @@
 
                 <div class="contact__content">
                     <h3 class="contact__title">Envoyez-moi un message pour en savoir plus !</h3>
-                    <form id="form">
+                    <form id="contact" action="https://formspree.io/f/mqapevrv" method="post">
                         <input name="nom" id="nomform" type="text" placeholder="Votre nom" required>
-                        <input name="mail" id="email" type="text" placeholder="Votre Email" required>
+                        <input name="mail" id="email" type="email" placeholder="Votre Email" required>
                         <textarea name="commentaire" id="commentaire" cols="30" rows="10" placeholder="Votre message" class="contact__form-input" required></textarea>
                         <input type="submit" id="button" class="button" value="Envoyer">
                     </form>
