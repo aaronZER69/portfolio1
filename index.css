@@ -72,7 +72,7 @@ body{
     background-color: var(--body-color);
     color: var(--text-color);
     transition: .4s;
-    background-image: url(2.jpg);
+    background-image: url(portfolio1/2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
